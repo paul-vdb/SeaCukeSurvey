@@ -1,16 +1,28 @@
 library(shiny)
+library(shinyjs)
 
 shinyUI(
-	fluidPage(
+	fluidPage(theme = "bootstrap.css",
 		# Main Action is where most everything is happenning in the
 		# object (where the welcome message, survey, and results appear)
-		actionButton("pg", "Next"),
-		uiOutput("MainAction")
+		useShinyjs(),
+		uiOutput("MainAction"),
+		
+		wellPanel(
+			textOutput("caption"),
+			actionButton("pg", "Next")
+		)
+
+		
 		# This displays the action putton Next.
 		 
 		
 		# sidebarLayout(position = "right",
-            # sidebarPanel("Select", br(), actionButton("pg", "Next")  ),
+			
+            # sidebarPanel(width = 2,
+				# textOutput("caption"),
+				# br(), 
+				# actionButton("pg", "Next")  ),
             # mainPanel(uiOutput("MainAction"))
 		# )			
 	)

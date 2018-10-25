@@ -31,19 +31,3 @@ The results will be part of a research paper that will be submitted to a scienti
 Please contact Paul van Dam-Bates 
 Contact: paul.vandambates@gmail.com
 
-### Consent and Approval
-
-This research proposal has been scrutinised and been granted Ethical Approval through the University ethical approval process.
-What should I do if I have concerns about this study?
-
-**A full outline of the procedures governed by the University Teaching and Research Ethical Committee is available at http://www.st-andrews.ac.uk/utrec/guidelinespolicies/complaints/**
-
-### Participant Consent Anonymous Data
-
-The University of St Andrews attaches high priority to the ethical conduct of research. ", "We therefore ask you to consider the following points before clicking the "I Consent" button ", "and taking part in this study. If you do not wish to take part please close your browser ", "or the tab in the browser.
-What is Anonymous Data?
-
-The term 'Anonymous Data' refers to data collected by a researcher that has no identifier markers so that even the researcher cannot identify any participant.
-Consent
-
-Please press next below if you consent to participating in this survey.
