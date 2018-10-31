@@ -1,5 +1,8 @@
 library(shiny)
 library(shinyjs)
+library(shinyWidgets)
+library(markdown)
+library(rdrop2)
 
 shinyUI(
 	fluidPage(theme = "bootstrap.css",
@@ -10,7 +13,11 @@ shinyUI(
 		
 		wellPanel(
 			textOutput("caption"),
-			actionButton("pg", "Next")
+			actionButton("pg", textOutput("Button")),
+			br(),
+			textOutput("progress"),
+			progressBar(id = "pb1", value = 0, display_pct = FALSE)
+	
 		)
 
 		

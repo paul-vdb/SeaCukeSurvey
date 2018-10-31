@@ -1,6 +1,6 @@
 library(rsconnect)
 
-setwd("./SeaCukeSurvey")
+setwd("C:/Users/Paul/Documents/Sea Cucumbers/PhotoID/Survey/ShinyApp")
 
 source("ui.r")
 source("server.r")
